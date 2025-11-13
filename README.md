@@ -105,23 +105,6 @@ mvn package
 # Install to local Maven repository
 mvn install
 
-Project Structure
-
-weather-sdk/
-├── src/
-│   ├── main/java/com/weather/
-│   │   ├── WeatherSDK.java          # Main SDK entry point
-│   │   ├── config/                  # Configuration classes
-│   │   ├── service/                 # Service layer
-│   │   ├── http/                    # HTTP communication
-│   │   ├── cache/                   # Caching implementation
-│   │   ├── model/                   # Data models
-│   │   └── exception/               # Exception classes
-│   └── test/java/                   # Test classes
-├── examples/                        # Usage examples
-├── pom.xml                         # Maven configuration
-└── README.md                       # This file
-
 Performance Considerations
 Caching Strategy
 
