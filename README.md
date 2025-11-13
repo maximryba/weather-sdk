@@ -1,6 +1,6 @@
 Weather SDK
 
-A Java SDK for accessing the OpenWeatherMap API with built-in caching, polling mode, and comprehensive error handling.
+Java SDK for accessing the OpenWeatherMap API with built-in caching, polling mode, and comprehensive error handling.
 Table of Contents
 
     Features
