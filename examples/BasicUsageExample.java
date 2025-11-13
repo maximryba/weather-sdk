@@ -13,7 +13,7 @@ public class BasicUsageExample {
         // Замените на ваш реальный API ключ
         String apiKey = "your-actual-api-key-here";
 
-        // Создаем SDK в on-demand режиме
+        // Создаем SDK в on-demand режим
         WeatherSDK weatherSDK = WeatherSDK.getInstance(apiKey, SDKConfig.OperationMode.ON_DEMAND);
 
         try {
